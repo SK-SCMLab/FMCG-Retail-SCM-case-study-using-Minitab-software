@@ -66,8 +66,8 @@ C --> |when σ is calculated & n≥10| F[X̄ & S chart];
 flowchart TD;
 A[Discrete data sampling] --> B[Defectives];
 A --> C[Defects];
-B --> D[1. const. subgroup size (np chart => no. of units rejected) 2. varying subgroup size (p chart => % of units rejected)];
-C --> E[2. const. subgroup size (c chart => no. of defects) 2. varying subgroup size (u chart => avg. no. of defects per opportunity)];
+B --> D[np chart - number of units rejected, p chart - % of units rejected];
+C --> E[c chart - number of defects, u chart - average number of defects per opportunity]; 
 ```
 
 ---
