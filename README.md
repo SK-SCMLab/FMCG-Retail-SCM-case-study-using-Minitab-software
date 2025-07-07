@@ -106,4 +106,8 @@ X̄ chart -> the subgroup average data will be plotted
 
 ## 🧴 Control Limit Formulae
 ### X̄ & R charts
-|*Center line*|*Control Limits*|
+|*Center line*|*Control Limits*|*σₓ*|
+|-------------|----------------|----|
+|CLₓ̄ = x̿ | UCLₓ̄ = x̿ + A₂r̄| LCLₓ̄ = x̿ - A₂r̄|r̄/D₂|
+|CLᵣ = R | UCLᵣ = D₄r̄| LCLᵣ = D₃r̄|r̄/D₂|
+
