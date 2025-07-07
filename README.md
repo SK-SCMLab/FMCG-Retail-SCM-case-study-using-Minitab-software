@@ -41,5 +41,23 @@ An Out-Of-Control (OOC) condition is indicated if one of the following is true:
 -          p(f) = (0.5)⁸ = 0.39%
 3. 6 to 8 points are consecutively increasing or decreasing
 -          p(f) = (0.5)⁶*(0.5)⁸ 
+4. 2 out of 3 points are within 1σₘₑₐₙ of either the UCL/the LCL
+-          p(f) = 3!/(2!*1!)*(0.023)²*(0.477) = 0.08% for one side
 
+### Tips
+- Identify the purpose for data collection and try to determine what kind of data may be needed for measurement
+- Identify measures that are used daily
+- If you don't adapt data to filter any noise factors from the process, the control chart will show you wrong results
+
+---
+
+## 🎙 Choosing an appropriate Control chart
+```mermaid
+flowchart TD;
+A[Continuous data sampling] --> |pulling one sample at fixed frequency| B[Individual Data Points];
+A --> |Taking periodic group data| C[Subgroups];
+B --> |Depicts the variability of individual characterisitics over time| D[I-MR chart];
+C --> |2<n<9| E[X̄ & R chart];
+C --> |when σ is calculated & n≥10| F[X̄ & S chart];
+```
 
