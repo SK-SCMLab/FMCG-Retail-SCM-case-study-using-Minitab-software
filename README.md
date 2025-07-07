@@ -62,3 +62,13 @@ C --> |2<n<9| E[X̄ & R chart];
 C --> |when σ is calculated & n≥10| F[X̄ & S chart];
 ```
 
+```mermaid
+flowchart TD;
+A[Discrete data sampling] --> B[Defectives]
+A --> C[Defects]
+B --> D[1. const. subgroup size (np chart => no. of units rejected) 2. varying subgroup size (p chart => % of units rejected)];
+C --> E[2. const. subgroup size (c chart => no. of defects) 2. varying subgroup size (u chart => avg. no. of defects per opportunity)];
+```
+
+---
+      
