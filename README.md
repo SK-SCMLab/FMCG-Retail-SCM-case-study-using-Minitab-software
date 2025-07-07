@@ -24,7 +24,7 @@ Process is in control when:
 ### Setting the Control limits
 ```mermaid
 flowchart TD;
-A[Standard Control Chart] --> |Uses control limits| B[σₘₑₐₙ from the data's grand average (X̄, average of the sample avg. or μ);
+A[Standard Control Chart] --> |Uses control limits| B[σₘₑₐₙ from the data grand average (X̄, average of the sample avg or μ)];
 ```
 
 - The probability of the out-of-control point when the process has not changed is 0.27%
