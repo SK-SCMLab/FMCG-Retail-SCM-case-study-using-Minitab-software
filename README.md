@@ -72,3 +72,38 @@ C --> E[c chart - number of defects, u chart - average number of defects per opp
 
 ---
       
+## ⚖️ X̄ chart principles
+X̄ -> average of each subgroup of data
+
+X̄ chart -> the subgroup average data will be plotted
+
+## X̄ chart
+- It is a plot of the means of the subgrouped data
+- It shows inter sub-group or between subgroup variation
+- The control limits are calculated based on mean of means, range or standard deviation, and other factors
+
+## R chart
+- It is the plot of the value of subgroup range
+- The R chart shows intra subgroup
+- One of the most sensitive charts to track and identify specific causes of variation
+- Can be plotted with any type of data
+
+## S chart
+- It is the plot of the standard deviation of the subgroup range
+- One of the most sensitive charts to track and identify special causes of variation
+
+## X̄ & R chart
+- It is of the same subgrouped data as the X̄ & S chart
+- One chart is the X̄ and the other is the R chart
+- Can be plotted with any type of data
+
+## X̄ & S chart
+- It is of the same subgrouped data as the X̄ & R chart
+- One chart is the X̄ and the otehr is the S chart
+- Can be plotted with any type of data
+
+---
+
+## 🧴 Control Limit Formulae
+### X̄ & R charts
+|*Center line*|*Control Limits*|
