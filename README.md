@@ -26,6 +26,7 @@ Process is in control when:
 flowchart TD;
 A[Standard Control Chart] --> |Uses control limits| B[σₘₑₐₙ from the data's grand average (X̄, average of the sample avg. or μ);
 ```
+
 - The probability of the out-of-control point when the process has not changed is 0.27%
 - 99.73% of the data lies within three standard deviations from the mean
 - If there is an increase in the point more than 2σ; the chance of type 1 or alpha error is high
