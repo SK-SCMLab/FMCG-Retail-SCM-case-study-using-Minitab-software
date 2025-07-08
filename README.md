@@ -127,3 +127,34 @@ X̄ chart -> the subgroup average data will be plotted
 - The data is divided into subgroups
 - Standard deviation is calculated for each subgroup
 - Values for A₃, B₃, B₄ are constant and are taken from control chart table. X̄-S charts are used to track process variation where the subgroup sample size ≥ 9
+
+---
+
+## 🚤 I-MR chart principles
+```mermaid
+flowchart TD;
+A[I-MR chart] --> B[I-plot of the individual data points];
+A --> C[MR-plot the moving range of previous individuals];
+```
+It is used:
+- When subgroup variation = 0 or no subgroup exists
+- With data points from destructive testing or batch processing, or summary data from a time period
+
+- It is sensitive to trends, cycles, patterns and normality
+
+Control limits of the I-MR charts are calculated using a similar method as X̄ & R chart
+|*Center line*|*Control limits*|
+|-------------|----------------|
+|CLₓ = X̄ | UCLₓ = X̄ + E₂r̄ | LCLₓ = X̄ - E₂r̄ |
+|CLᵣ = r̄ | UCLᵣ = D₄r̄ | LCLᵣ = D₅r̄ |
+
+*Example*: The QC department measures the strength of its milk cartons once in every hour. Is the process in control?
+- Since the data is individual data, the I-MR chart will be used here
+- This is a destructive test
+- If several samples are tested, an X̄ & R chart can also be used
+- Moving range is the absolute value of difference b/w las two data points
+
+---
+
+## 🛟 Control charts for attribute data
+Based on sample size and data type (defects or defective) 
