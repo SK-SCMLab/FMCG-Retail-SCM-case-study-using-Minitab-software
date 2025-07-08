@@ -126,4 +126,4 @@ X̄ chart -> the subgroup average data will be plotted
 - s => standard deviation of each subgroup data
 - The data is divided into subgroups
 - Standard deviation is calculated for each subgroup
-- Values for A₃, B₃, B₄ are constant and are taken from control chart table. X̄-S charts are used to track 
+- Values for A₃, B₃, B₄ are constant and are taken from control chart table. X̄-S charts are used to track process variation where the subgroup sample size ≥ 9
