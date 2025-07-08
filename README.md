@@ -111,3 +111,19 @@ X̄ chart -> the subgroup average data will be plotted
 |CLₓ̄ = x̿ | UCLₓ̄ = x̿ + A₂r̄| LCLₓ̄ = x̿ - A₂r̄|r̄/D₂|
 |CLᵣ = R | UCLᵣ = D₄r̄| LCLᵣ = D₃r̄|r̄/D₂|
 
+*Defining UCL & LCL in X̄-R charts*
+- x̿ = Grand average
+- r̄ = Average of the range
+- A₂, D₂, D₃, D₄ are values which can be taken from the control chart table
+
+### X̄ & S charts
+|*Center line*|*Control limits*|*σₓ*|
+|-------------|----------------|----|
+|CLₓ̄ = x̿ | UCLₓ̄  = x̿ + A₃ₛ̄| LCLₓ̄ = x̿ - A₃S̄| S̄/C₄|
+|CLₛ = S̄ | UCLₛ = B₄S̄ | LCLₛ = B₃S̄| S̄/C₄|
+
+*Defining UCL & LCL in X̄-S charts*
+- s => standard deviation of each subgroup data
+- The data is divided into subgroups
+- Standard deviation is calculated for each subgroup
+- Values for A₃, B₃, B₄ are constant and are taken from control chart table. X̄-S charts are used to track 
