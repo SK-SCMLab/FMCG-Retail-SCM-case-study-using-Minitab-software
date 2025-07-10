@@ -157,4 +157,59 @@ Control limits of the I-MR charts are calculated using a similar method as X̄ &
 ---
 
 ## 🛟 Control charts for attribute data
-Based on sample size and data type (defects or defective) 
+Based on sample size and data type (defects or defective), the control charts can be selected. The control limits may be constant, such as X̄ and R charts (for np & c charts), or vary depending on sample size (for p & u charts)
+
+np -> If the sample size is consistent and data type is defective
+c -> If the sample size is consistent and the data type available changes from defective to defects
+p -> If the sample size is inconsistent and the data type is defective
+u -> If the sample size is inconsistent and the data type is defect
+
+### np-Chart principles
+The np chart is used to measure the non-confirming proportions or no. of defectives within a standardize group size
+- The expectation is that the same proportion exists in each group
+- The np chart follows binomial distribution
+- Large subgroups are required (50 minimum) for this chart
+- Subgroup size must be constant
+- Control limits will be constant for an np chart
+  - Proportion of p = D/n
+  - np = n*D/n = D
+  - Control limits = np̄ ± 3√np̄ (1-p̄)
+  -                   D = Defectives
+
+**Eg**: *The sourcing department at Starbucks Coffee house worldwide measures 125 POs daily and records the no. of entry errors in them, Is the order entry process in control?*
+
+### p-Chart principles
+- The p-chart is used to measure the non-confirming proportion or defectives
+- The expectation is that the same proportion exists in each group
+- The p-chart follows binomial distribution
+- The subgroup size should be atleast 50
+- Subgroup size need not be constant
+- Control limits may vary from subgroup to subgroup based on the subgroup size
+- Control limits = p̄ ± 3√p̄(1-p̄)/n
+-                   When n changes, control limit also changes
+
+**Eg**: *The sourcing department in Starbuck Coffee house worldwide measures the no. of entry errors on a daily basis. Is the order entry process in control? 
+
+### c-Chart principles
+- To form a c-Chart, measure the number of occurences of non-confirming defects
+- The c-Chart follows a Poisson distribution
+- The sample size is fixed on the area of opportunity which is constant
+- It is used to identify attribute data for the sample
+- Each count is a subgroup of samples
+- The control limits will be constant
+- The subgroup size should be atleast 20
+- Control limits = c̅ ± 3√c̅
+
+**Eg**: Final inpsection grades the tinted glass on the no. of white specs. The product is priced by grade. While specs are defects, not defectives, and are measured over a constant sample area, so, c-chart will be used
+
+### u-Chart Principles
+- The u-Chart is used to measure the non-confirming proportion or defectives
+- The u-Chart follows a Poisson distribution
+- Used to identify attribute data for the sample
+- Sample size is not fixed
+- Control limits may vary
+- The subgroup size should be atleast 20
+- Control limits = ũ ± 3√ũ/a
+-             a = area of opportunity
+
+**Eg**: The plastic operation counts defects after a "run" which is undetermined in length (once started, it continues until all material is used)
