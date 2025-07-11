@@ -213,3 +213,12 @@ The np chart is used to measure the non-confirming proportions or no. of defecti
 -             a = area of opportunity
 
 **Eg**: The plastic operation counts defects after a "run" which is undetermined in length (once started, it continues until all material is used)
+
+---
+
+## 📿 Requirements
+- Minitab software v22
+- Control charts fundamentals
+
+---
+*"When a process is stable, or 'in control,' this means the outcomes are predictable"*
