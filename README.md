@@ -216,6 +216,40 @@ The np chart is used to measure the non-confirming proportions or no. of defecti
 
 ---
 
+## 🧫 Case study: Statistical process control in FMCG supply chain
+
+### X̄ & R charts
+*Objective*: Monitor average lead time and its variability in small subgroups
+*Used for*: When each subgroup has 2-10 observations (e.g. weekly batches)
+
+**Interpretation**:
+
+- High variation in weeks 11-15
+- Spikes in lead time variability, likely due to stockout panic replenishments
+- Must review vendor response and batch consolidation
+
+### X̄ & S charts
+*Objective*: Same as X̄ & R but better for subgroup sizes > 10
+*Used for*: Aggregate 10-week periods of each SKU
+
+**Interpretation**:
+
+- Higher standard deviation during weeks 21-30 suggests vendor inconsistency or internal scheduling delays
+
+### I-MR chart
+*Objective*: Analyze single readings over time
+*Used for*: Only one lead time reading is available per week/day
+
+**Interpretation**:
+
+- Shows variability spikes in weeks 7, 19, 28
+- Indicates external disruptions like transportation bottlenecks or policy shifts
+- Map MR spikes with transportation logs or public holidays
+
+## np chart
+*Objective*: Track number of defective units in constant sample sizes
+
+
 ## 📿 Requirements
 - Minitab software v22
 - Control charts fundamentals
