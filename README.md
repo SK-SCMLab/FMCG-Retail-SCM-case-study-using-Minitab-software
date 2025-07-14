@@ -246,9 +246,29 @@ The np chart is used to measure the non-confirming proportions or no. of defecti
 - Indicates external disruptions like transportation bottlenecks or policy shifts
 - Map MR spikes with transportation logs or public holidays
 
-## np chart
+### np chart
 *Objective*: Track number of defective units in constant sample sizes
 
+**Interpretation**:
+
+- Had multiple instances where 'Defectives_np > UCL'
+- Special cause variation detected - possibly due to raw material changes or training gaps
+
+### u chart (Defects per unit)
+*Objective*: Monitor defects when sample size varies
+
+**Interpretation**:
+
+- Has higher u values during low-volume inspection days
+- Suggests process sensitivity to batch size - may need revalidation of smaller batch QC limits
+
+### c chart (nonconformities per unit)
+*Objective*: Count of nonconformities in a fixed inspection area or product
+
+**Interpretation**:
+
+- Mostly under control
+- An anamoly on Day 22 reveals potential calibration issue or shift-specific inefficiency
 
 ## 📿 Requirements
 - Minitab software v22
